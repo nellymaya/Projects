@@ -1,0 +1,84 @@
+.block.content{
+        background-color: white;
+        height: 100%;
+        width: 50%;
+        margin: auto;
+        min-width: 906px;
+}
+.main-content {
+    width: 70%;
+    min-height: 600px;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.sub-menu {
+    position: sticky;
+    top: 0;
+    width: 30%;
+    min-height: 600px;
+    float: left;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+}
+.sub-menu > ul li a {
+    background: black;
+    color: white;
+    display: block;
+    font-size: 1em;
+    padding: 10px 20px 10px 21px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+.sub-menu > ul {
+    margin-left: -20px;
+    margin-right: 20px;
+    overflow-y: scroll;
+    height: 470px;
+}
+.sub-menu > ul li a:hover {
+    background: white;
+    color: black;
+    box-shadow: 5px 1px 10px -5px black;
+    transition: all 0.3s ease;
+}
+.sub-menu > ul li a.active {
+    background: white;
+    color:black;
+    box-shadow: 5px 1px 10px -5px black;
+}
+img {
+    width: 100%;
+    height: inherit;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.sub-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    left: -211px;
+    top: 93px;
+    display: none;
+    transition: all 0.3s ease;
+}
+.sub-menu li > ul li {
+    border: 0.5px solid white;
+}
+.sub-menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: black;
+}
+.sub-menu li:hover > ul {
+    transition: all 0.3s ease;
+    display: block;
+}
+
+
+

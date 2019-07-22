@@ -1,0 +1,131 @@
+body {
+        background: url(images/background.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+::selection {
+    background: black;
+    color: white;
+}
+header {
+    margin-top: 0px auto;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    min-width: 1000px;
+    margin-left: -40px;
+}
+.menu {
+    margin: auto;
+    padding: 0;
+}
+.menu > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.menu > ul li a {
+    display: block;
+    background: black;
+    padding: 20px 75px 20px 75px;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.menu > ul li a.active {
+    background: white;
+    color: black;
+    box-shadow: 1px 5px 10px -5px black;
+}
+.menu > ul li {
+    border-right: 1px solid white;
+}
+.menu li a:hover {
+    background: white;
+    color: black;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+.footer {
+    min-height: 70px;
+    min-width: 906px;
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 0.75em;
+}
+.footer.contact {
+    float: left;
+    color: white;
+}
+.contact > ul {
+    list-style: none;
+    margin-left: -40px;
+}
+.contact > ul li a{
+    color: white;
+}
+.contact > ul li a:hover{
+    text-decoration: underline;
+}
+.developer-contact > ul {
+    list-style: none;
+    margin-left: -40px;
+}
+.developer-contact > ul li a{
+    color: white;
+}
+.developer-contact > ul li a:hover{
+    text-decoration: underline;
+}
+.footer-menu > ul {
+    list-style: none;
+    margin-left: -40px;
+}
+.footer-menu > ul li a{
+    color: white;
+}
+.footer-menu > ul li a:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    clear: both;
+}
+ul li {
+    list-style: none;
+}
+.copyright {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 0.75em;
+    background: black;
+    min-width: 906px;
+    width: 50%;
+    margin: auto;
+}
+
+/*кнопка наверх*/
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right:100px;
+display:none;
+text-indent:-9999px;
+background: url('icon_top.png') no-repeat;
+}
+/*scroll*/
+::-webkit-scrollbar-thumb {
+    color: black;
+}
